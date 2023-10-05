@@ -347,11 +347,13 @@ Route::get('/');
 
 use Illuminate\Http\Request;
 
-Route::get('session',function (Request $request ){
-//   $request->session()->put(["username"=>"iman"]);
-//    session(["email"=>"farvardin.225@gmail.com"]);
-//    $request->session()->forget('username');
-    $request->session()->flash('message','Post has been created!');
+//Route::get('session',function (Request $request ){
+////   $request->session()->put(["username"=>"iman"]);
+////    session(["email"=>"farvardin.225@gmail.com"]);
+////    $request->session()->forget('username');
+//    $request->session()->flash('message','Post has been created!');
+//
+//    return $request->session()->all();
+//});
 
-    return $request->session()->all();
-});
+// یک تغییر ایجاد شد 
